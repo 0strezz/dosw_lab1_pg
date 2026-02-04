@@ -10,4 +10,10 @@ public class Diego {
         }
         return map;
     }
+
+    public static Map<String, Integer> combinar(Map<String, Integer> mapA, Map<String, Integer> mapB) {
+    	Map<String, Integer> combinado = new HashMap<>(mapA);
+    	mapB.forEach((k, v) -> combinado.put(k, v));
+    	return combinado;
+    }
 }
