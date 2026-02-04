@@ -7,14 +7,14 @@ public class CarreraParalela {
 	public void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Enter first line of numbers:");
+		System.out.println("Ingrese la primera serie de numeros:");
 		Result numbers1 = calc(scanner.nextLine());
 
-		System.out.println("Enter second line of numbers:");
+		System.out.println("Ingrese la segunda serie de numeros:");
 		Result numbers2 = calc(scanner.nextLine());
 
-		System.out.println("First line results: " + numbers1.toString());
-		System.out.println("Second line results: " + numbers2.toString());
+		System.out.println("resultados (primera linea): " + numbers1.toString());
+		System.out.println("resultados (segunda linea): " + numbers2.toString());
 	}
 
 	public static Result calc(String numbers){
