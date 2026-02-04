@@ -42,6 +42,12 @@ en uno solo para que quedara solo un metodo funcional.
 
 ## Reto 5
 
+![conflicto](imagenes/reto5a.jpeg)
+![resolucion](imagenes/reto5b.jpeg)
+
+Aqui github nos daba un error dado porque una persona estaba sobreescribiendo
+el trabajo de la otra
+
 ## Reto 6
 
 ## Preguntas teoricas
