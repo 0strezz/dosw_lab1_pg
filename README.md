@@ -15,6 +15,12 @@ valores en un string.
 
 ## Reto 2
 
+![Conflicto en github](imagenes/reto2a.jpeg)
+![Grafico en git](imagenes/reto2b.png)
+
+Los conflictos se generaban cuando ambos modificabamos el mismo archivo, por suerte GitHub ofrece una manera rapida de resolverlos,
+al menos este tipo de conflictos...
+
 ## Reto 3
 
 ## Reto 4

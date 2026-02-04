@@ -28,3 +28,27 @@ public class CarreraParalela {
 		return new Result(max, min, listNumbers.size());
 	}
 }
+
+class Result {
+    int max;
+    int min;
+    int cantidad;
+
+    public Result(int max, int min, int cantidad) {
+        this.max = max;
+        this.min = min;
+        this.cantidad = cantidad;
+    }
+
+	String maxIsMultipleOf2 = (max%2==0) ? "yes" : "No";
+    String maxIsDivisorOf2 = (max != 0 && 2 % max == 0) ? "Yes" : "No";
+
+    String isOdd = (cantidad % 2 != 0) ? "yes" : "No";
+	String isPair = (cantidad % 2 == 0) ? "yes" : "No";
+
+    @Override
+    public String toString() {
+        return "Max: " + max + ", Min: " + min + ", total data: " + cantidad + " Is divisor of 2: " +
+        maxIsDivisorOf2 + " Is multiple of 2: " + maxIsMultipleOf2 + " is odd: " + isOdd + " is pair: " + isPair;
+    }
+}
