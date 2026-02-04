@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Laboratorio 1 - dosw
 
 ## Integrantes
@@ -26,9 +25,28 @@ al menos este tipo de conflictos...
 
 ## Reto 3
 
+![representacion visual en git](imagenes/reto3.png)
+![conflicto en github](imagenes/reto3b.jpeg)
+
+En este caso github no sabe que merge hacer, por lo que hay que resolver el problema manualmente, la solucion aqui
+fue combinar ambos metodos en uno solo.
+
 ## Reto 4
 
+![conflicto](imagenes/reto4a.jpeg)
+![resolucion](imagenes/reto4b.jpeg)
+
+Aqui github nos daba un error dado que los metodos para combinar
+se llamaban igual, lo que hicimos fue combinar la logica de ambos
+en uno solo para que quedara solo un metodo funcional.
+
 ## Reto 5
+
+![conflicto](imagenes/reto5a.jpeg)
+![resolucion](imagenes/reto5b.jpeg)
+
+Aqui github nos daba un error dado porque una persona estaba sobreescribiendo
+el trabajo de la otra
 
 ## Reto 6
 
