@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Laboratorio 1 - dosw
 
 ## Integrantes
