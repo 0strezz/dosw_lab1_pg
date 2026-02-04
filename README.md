@@ -22,7 +22,7 @@ valores en un string.
 Los conflictos se generaban cuando ambos modificabamos el mismo archivo, por suerte GitHub ofrece una manera rapida de resolverlos,
 al menos este tipo de conflictos...
 
-*NOTA*: Este reto sera usado como checkpoint, por lo que haremos un merge en main para guardar cambios estables.
+**NOTA**: Este reto sera usado como checkpoint, por lo que haremos un merge en main para guardar cambios estables.
 
 ## Reto 3
 
