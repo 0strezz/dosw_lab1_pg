@@ -39,4 +39,6 @@ class Result {
         this.min = min;
         this.cantidad = cantidad;
     }
+
+    String maxIsDivisorOf2 = (max != 0 && 2 % max == 0) ? "Yes" : "No";
 }
