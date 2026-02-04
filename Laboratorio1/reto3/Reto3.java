@@ -8,3 +8,11 @@ public class Reto3 {
         return builder.toString().trim();
     }
 }
+
+public class Reto3 {
+    public static String transformarMensaje(String mensaje) {
+        StringBuffer buffer = new StringBuffer(mensaje);
+        return buffer.reverse().toString();
+    }
+}
+
