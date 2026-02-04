@@ -32,7 +32,12 @@ al menos este tipo de conflictos...
 
 ## Reto 6
 
+![conflicto](imagenes/reto6a.jpeg)
+![resolucion](imagenes/reto6b.jpeg)
+
+Este ejercicio consistía en programar una máquina que está dañada donde se tiene que arreglar y unir sus comandos. Esto quiere decir que tanto el estudiante A como el estudiante B deben reparar de forma adecuada para que los comandos de la maquina funcione correctamente. Al juntar sus respectivas tareas de reparación, al subir en git presentan conflictos de Merge, pero como los demas, pudimos arreglarlos
+desde el editor de GitHub aceptado cambios/rechazando cosas obsoletas y demas...
+
 ## Preguntas teoricas
 
-TODO
-=======
+1.
