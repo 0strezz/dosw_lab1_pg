@@ -39,4 +39,6 @@ class Result {
         this.min = min;
         this.cantidad = cantidad;
     }
+
+	String maxIsMultipleOf2 = (max%2==0) ? "yes" : "No";
 }
