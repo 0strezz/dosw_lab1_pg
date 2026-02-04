@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Laboratorio 1 - dosw
 
 ## Integrantes
@@ -34,3 +35,4 @@ al menos este tipo de conflictos...
 ## Preguntas teoricas
 
 TODO
+=======
