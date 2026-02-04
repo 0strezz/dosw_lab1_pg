@@ -44,6 +44,8 @@ class Result {
     String maxIsDivisorOf2 = (max != 0 && 2 % max == 0) ? "Yes" : "No";
 
     String isOdd = (cantidad % 2 != 0) ? "yes" : "No";
+	String isPair = (cantidad % 2 == 0) ? "yes" : "No";
+
     @Override
     public String toString() {
         return "Max: " + max + ", Min: " + min + ", total data: " + cantidad + " Is divisor of 2: " +
