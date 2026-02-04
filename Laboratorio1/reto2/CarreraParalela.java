@@ -28,3 +28,15 @@ public class CarreraParalela {
 		return new Result(max, min, listNumbers.size());
 	}
 }
+
+class Result {
+    int max;
+    int min;
+    int cantidad;
+
+    public Result(int max, int min, int cantidad) {
+        this.max = max;
+        this.min = min;
+        this.cantidad = cantidad;
+    }
+}
