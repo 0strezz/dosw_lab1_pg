@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 
 
 
-public class Cofre {
+public class Reto4 {
 
 
 
