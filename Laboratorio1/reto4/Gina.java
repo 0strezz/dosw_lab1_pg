@@ -1,20 +1,69 @@
-import java.util.Hashtable;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
-public class Gina {
-    public static Map<String, Integer> crearHashtable(List<Map.Entry<String, Integer>> lista) {
-        Map<String, Integer> table = new Hashtable<>();
-        for (Map.Entry<String, Integer> e : lista) {
-            table.putIfAbsent(e.getKey(), e.getValue());
-        }
-        return table;
+import java.util.stream.Collectors;
+
+
+
+public class Cofre {
+
+
+
+    public static Map<String, Integer> combinarMapas(Map<String, Integer> hashMap, Map<String, Integer> hashTable) {
+
+
+        return Stream.concat(hashMap.entrySet().stream(), hashTable.entrySet().stream())
+
+                     .collect(Collectors.toMap(
+
+                         e -> e.getKey().toUpperCase(),
+
+                         Map.Entry::getValue,
+
+                         (v1, v2) -> v2,
+
+                         LinkedHashMap::new
+
+                     ));
+
     }
-	
-	public static Map<String, Integer> combinar(Map<String, Integer> mapA, Map<String, Integer> mapB) {
-    	Map<String, Integer> combinado = new HashMap<>(mapA);
-    	mapB.forEach(combinado::put);
-    	return combinado;
-	}
+
+
+
+    public static void imprimirMapOrdenado(Map<String, Integer> map) {
+
+        map.entrySet().stream()
+
+           .sorted(Map.Entry.comparingByKey())
+
+           .forEach(e -> System.out.println(e.getKey() + " -> " + e.getValue()));
+
+    }
+
+
+
+    public static void main(String[] args) {
+
+        Map<String, Integer> hashMap = new HashMap<>();
+
+        hashMap.put("a", 1);
+
+        hashMap.put("b", 2);
+
+
+
+        Map<String, Integer> hashTable = new Hashtable<>();
+
+        hashTable.put("b", 20);
+
+        hashTable.put("c", 3);
+
+
+
+        Map<String, Integer> finalMap = combinarMapas(hashMap, hashTable);
+
+        imprimirMapOrdenado(finalMap);
+
+    }
+
 }
 
