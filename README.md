@@ -25,6 +25,12 @@ al menos este tipo de conflictos...
 
 ## Reto 3
 
+![representacion visual en git](imagenes/reto3.jpeg)
+![conflicto en github](imagenes/reto3b.png)
+
+En este caso github no sabe que merge hacer, por lo que hay que resolver el problema manualmente, la solucion aqui
+fue combinar ambos metodos en uno solo.
+
 ## Reto 4
 
 ## Reto 5
