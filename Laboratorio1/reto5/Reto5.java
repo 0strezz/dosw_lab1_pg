@@ -21,4 +21,3 @@ public class Reto5 {
         System.out.println();
     }
 }
-
