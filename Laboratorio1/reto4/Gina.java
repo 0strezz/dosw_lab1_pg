@@ -10,5 +10,11 @@ public class Gina {
         }
         return table;
     }
+	
+	public static Map<String, Integer> combinar(Map<String, Integer> mapA, Map<String, Integer> mapB) {
+    	Map<String, Integer> combinado = new HashMap<>(mapA);
+    	mapB.forEach(combinado::put);
+    	return combinado;
+	}
 }
 
