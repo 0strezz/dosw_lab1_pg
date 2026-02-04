@@ -52,6 +52,4 @@ el trabajo de la otra
 
 ## Preguntas teoricas
 
-TODO
-=======
-
+1.

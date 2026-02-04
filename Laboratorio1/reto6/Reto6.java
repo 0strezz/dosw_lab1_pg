@@ -42,20 +42,28 @@ public class Reto6 {
     private static Map<String, Runnable> createActions() {
         Map<String, Runnable> actions = new HashMap<>();
         actions.put("SALUDAR", () ->
+                System.out.println("La máquina dice: ¡Saludos, viajero del tiempo y del código!")
         );
         actions.put("DESPEDIR", () ->
+                System.out.println("La máquina dice: Que los bits te acompañen, hasta la próxima misión.")
         );
         actions.put("CANTAR", () ->
+                System.out.println("La máquina canta: 01010101")
         );
         actions.put("DANZAR", () ->
+                System.out.println("La máquina gira y emite chispas: Girando en modo fiesta.")
         );
         actions.put("BROMEAR", () ->
+                System.out.println("La máquina se ríe: ¿por qué la RAM rompió con la CPU? Porque necesitaba espacio")
         );
         actions.put("GRITAR", () ->
+                System.out.println("La máquina grita: ¡¡¡ALERTA DE STACK OVERFLOW!!!")
         );
         actions.put("SUSURRAR", () ->
+                System.out.println("La máquina susurra: Shhh... los bugs están dormidos")
         );
         actions.put("ANALIZAR", () ->
+                System.out.println("La máquina procesa: Analizando datos... resultado: ¡Eres increíble programando!")
         );
         return actions;
     }
