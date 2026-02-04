@@ -33,6 +33,13 @@ fue combinar ambos metodos en uno solo.
 
 ## Reto 4
 
+![conflicto](imagenes/reto4a.jpeg)
+![resolucion](imagenes/reto4b.jpeg)
+
+Aqui github nos daba un error dado que los metodos para combinar
+se llamaban igual, lo que hicimos fue combinar la logica de ambos
+en uno solo para que quedara solo un metodo funcional.
+
 ## Reto 5
 
 ## Reto 6
