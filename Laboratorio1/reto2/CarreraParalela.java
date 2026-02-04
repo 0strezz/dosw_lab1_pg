@@ -30,13 +30,13 @@ public class CarreraParalela {
 }
 
 class Result {
-	int max;
-	int min;
-	int cantidad;
+    int max;
+    int min;
+    int cantidad;
 
-	public Result(int max, int min, int cantidad) {
-		this.max = max;
-		this.min = min;
-		this.cantidad = cantidad;
-	}
+    public Result(int max, int min, int cantidad) {
+        this.max = max;
+        this.min = min;
+        this.cantidad = cantidad;
+    }
 }
